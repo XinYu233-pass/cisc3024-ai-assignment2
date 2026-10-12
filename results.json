@@ -1,0 +1,320 @@
+{
+  "dataset": "sklearn load_digits",
+  "splits": [
+    {
+      "seed": 0,
+      "train": 1077,
+      "validation": 360,
+      "test": 360
+    },
+    {
+      "seed": 1,
+      "train": 1077,
+      "validation": 360,
+      "test": 360
+    },
+    {
+      "seed": 2,
+      "train": 1077,
+      "validation": 360,
+      "test": 360
+    }
+  ],
+  "gradient_check_absolute_error": 2.8157402162406733e-07,
+  "optimizer_logs": [
+    {
+      "seed": 0,
+      "model": "MAP",
+      "prior": 0.1,
+      "validation_nll": 0.15900930957301368,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 63,
+      "objective": 0.2377781616222468
+    },
+    {
+      "seed": 0,
+      "model": "MAP",
+      "prior": 1.0,
+      "validation_nll": 0.09717130325580664,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 99,
+      "objective": 0.059027441611556694
+    },
+    {
+      "seed": 0,
+      "model": "MAP",
+      "prior": 10.0,
+      "validation_nll": 0.09735166680433695,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 109,
+      "objective": 0.012755131507898008
+    },
+    {
+      "seed": 0,
+      "model": "VBLL",
+      "prior": 0.1,
+      "validation_nll": 0.17225401728468828,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 283,
+      "objective": 0.5333284828347431
+    },
+    {
+      "seed": 0,
+      "model": "VBLL",
+      "prior": 1.0,
+      "validation_nll": 0.10089902109522407,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 203,
+      "objective": 0.589608135071765
+    },
+    {
+      "seed": 0,
+      "model": "VBLL",
+      "prior": 10.0,
+      "validation_nll": 0.0960099382544571,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 158,
+      "objective": 0.8129269284164269
+    },
+    {
+      "seed": 1,
+      "model": "MAP",
+      "prior": 0.1,
+      "validation_nll": 0.14059654737349014,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 73,
+      "objective": 0.24135675277604104
+    },
+    {
+      "seed": 1,
+      "model": "MAP",
+      "prior": 1.0,
+      "validation_nll": 0.07091957369666092,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 108,
+      "objective": 0.05960500618228823
+    },
+    {
+      "seed": 1,
+      "model": "MAP",
+      "prior": 10.0,
+      "validation_nll": 0.06297429843346788,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 127,
+      "objective": 0.012738147114098493
+    },
+    {
+      "seed": 1,
+      "model": "VBLL",
+      "prior": 0.1,
+      "validation_nll": 0.15222619608963434,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 304,
+      "objective": 0.5326528914511586
+    },
+    {
+      "seed": 1,
+      "model": "VBLL",
+      "prior": 1.0,
+      "validation_nll": 0.07495781531704168,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 243,
+      "objective": 0.571707160680704
+    },
+    {
+      "seed": 1,
+      "model": "VBLL",
+      "prior": 10.0,
+      "validation_nll": 0.0634146621870791,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 168,
+      "objective": 0.7767429325678711
+    },
+    {
+      "seed": 2,
+      "model": "MAP",
+      "prior": 0.1,
+      "validation_nll": 0.15941637049801788,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 69,
+      "objective": 0.24008756724609157
+    },
+    {
+      "seed": 2,
+      "model": "MAP",
+      "prior": 1.0,
+      "validation_nll": 0.08710106681621449,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 103,
+      "objective": 0.060041835521717705
+    },
+    {
+      "seed": 2,
+      "model": "MAP",
+      "prior": 10.0,
+      "validation_nll": 0.08301936574566954,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 123,
+      "objective": 0.012998591155740495
+    },
+    {
+      "seed": 2,
+      "model": "VBLL",
+      "prior": 0.1,
+      "validation_nll": 0.17356347622908297,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 338,
+      "objective": 0.5540693910938352
+    },
+    {
+      "seed": 2,
+      "model": "VBLL",
+      "prior": 1.0,
+      "validation_nll": 0.09176715095002293,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 226,
+      "objective": 0.6325183524359002
+    },
+    {
+      "seed": 2,
+      "model": "VBLL",
+      "prior": 10.0,
+      "validation_nll": 0.08156304305728038,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 166,
+      "objective": 0.8755171787033693
+    }
+  ],
+  "feature_training_logs": [
+    {
+      "seed": 0,
+      "iterations": 1079,
+      "warnings": []
+    },
+    {
+      "seed": 1,
+      "iterations": 2000,
+      "warnings": [
+        "lbfgs failed to converge after 2000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=2000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ]
+    },
+    {
+      "seed": 2,
+      "iterations": 2000,
+      "warnings": [
+        "lbfgs failed to converge after 2000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=2000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "model": "MAP",
+      "noise": 0.0,
+      "accuracy_mean": 0.974074074074074,
+      "accuracy_std": 0.00578240555407257,
+      "nll_mean": 0.07931663427915153,
+      "nll_std": 0.035496897395405035,
+      "ece_mean": 0.016822927701672086,
+      "ece_std": 0.0032957995785093375,
+      "brier_mean": 0.03234547501509282,
+      "brier_std": 0.01187289136782815,
+      "confidence_mean": 0.9696832419898124,
+      "confidence_std": 0.009664558677281396
+    },
+    {
+      "model": "MAP",
+      "noise": 0.2,
+      "accuracy_mean": 0.9453703703703704,
+      "accuracy_std": 0.009755234956345152,
+      "nll_mean": 0.1784581776000399,
+      "nll_std": 0.04971120488046468,
+      "ece_mean": 0.020544080068076603,
+      "ece_std": 0.008568489100321179,
+      "brier_mean": 0.08088983053312171,
+      "brier_std": 0.01860029897428742,
+      "confidence_mean": 0.9360948729592707,
+      "confidence_std": 0.014765588925609379
+    },
+    {
+      "model": "MAP",
+      "noise": 0.4,
+      "accuracy_mean": 0.7527777777777778,
+      "accuracy_std": 0.03480545579483795,
+      "nll_mean": 0.851454371354769,
+      "nll_std": 0.1988613545421202,
+      "ece_mean": 0.10549449377211621,
+      "ece_std": 0.058565113503548816,
+      "brier_mean": 0.3625869147649822,
+      "brier_std": 0.05998507992141633,
+      "confidence_mean": 0.8523395801841325,
+      "confidence_std": 0.035683440031577036
+    },
+    {
+      "model": "VBLL",
+      "noise": 0.0,
+      "accuracy_mean": 0.9768518518518517,
+      "accuracy_std": 0.0042431256434776144,
+      "nll_mean": 0.08055567818585134,
+      "nll_std": 0.03637639321286137,
+      "ece_mean": 0.014347356202787225,
+      "ece_std": 0.005750063695666616,
+      "brier_mean": 0.03242479764517434,
+      "brier_std": 0.01131475414128705,
+      "confidence_mean": 0.9740806857289428,
+      "confidence_std": 0.0033776916386635257
+    },
+    {
+      "model": "VBLL",
+      "noise": 0.2,
+      "accuracy_mean": 0.9453703703703704,
+      "accuracy_std": 0.009755234956345152,
+      "nll_mean": 0.17874209192515356,
+      "nll_std": 0.049529686276099986,
+      "ece_mean": 0.016255890280472994,
+      "ece_std": 0.009166882541090422,
+      "brier_mean": 0.08025824490860715,
+      "brier_std": 0.017824666065210416,
+      "confidence_mean": 0.9427290907609837,
+      "confidence_std": 0.006968858416271542
+    },
+    {
+      "model": "VBLL",
+      "noise": 0.4,
+      "accuracy_mean": 0.7574074074074074,
+      "accuracy_std": 0.02697926348950643,
+      "nll_mean": 0.8585439339182828,
+      "nll_std": 0.12812137273329857,
+      "ece_mean": 0.10355398728871068,
+      "ece_std": 0.02374910454684759,
+      "brier_mean": 0.36052400810762797,
+      "brier_std": 0.044716405416420975,
+      "confidence_mean": 0.8590528755886474,
+      "confidence_std": 0.002774576345280225
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "elapsed_seconds": 7.819921970367432
+}
